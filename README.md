@@ -1,10 +1,8 @@
 # crypto-webapp
+TOP 10 cryptocurrencies with Marketcap, Volume 24h...
 
-https://vue-crypto-test.herokuapp.com/
-
-simple IHM with Vue.js consuming API https://min-api.cryptocompare.com/
-
-
+Simple IHM with Vue.js consuming API https://min-api.cryptocompare.com/
+Deployed on Heroku >>> https://vue-crypto-test.herokuapp.com/
 
 ## Build Setup
 
