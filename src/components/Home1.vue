@@ -5,6 +5,7 @@
       <thead>
         <tr class="is-selected">
           <th>#</th>
+          <th>Coin</th>
           <th>Name</th>
           <th>Market Cap</th>
           <th>Price</th>
@@ -16,6 +17,7 @@
       <tfoot>
         <tr>
           <th>#</th>
+          <th>Coin</th>
           <th>Name</th>
           <th>Market Cap</th>
           <th>Price</th>
@@ -27,6 +29,7 @@
       <tbody>
         <tr v-for="(value, key, index) in coins">
           <th>{{index+1}}</th>
+          <td><img  v-bind:src="'https://www.cryptocompare.com' + value.USD.IMAGEURL" width="40" height="20"/></td>
           <td>{{key}}</td>
           <td>{{value.USD.MKTCAP}}</td>
           <td>{{value.USD.PRICE}}</td>
@@ -54,7 +57,8 @@ export default {
     }
   },
   created () {
-    axios.get('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,ETH,DOGE,USDT,DASH&tsyms=USD,EUR')
+
+    axios.get('https://min-api.cryptocompare.com/data/pricemultifull?fsyms=BTC,XRP,ETH,EOS,BCH,LTC,BNB,USDT,DASH,DOGE&tsyms=USD,EUR')
     .then(response => {
       this.coins = response.data.DISPLAY
       console.log(response)
