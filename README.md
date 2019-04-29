@@ -1,6 +1,10 @@
 # crypto-webapp
 
-> A Vue.js project
+https://vue-crypto-test.herokuapp.com/
+
+simple IHM with Vue.js consuming API https://min-api.cryptocompare.com/
+
+
 
 ## Build Setup
 
