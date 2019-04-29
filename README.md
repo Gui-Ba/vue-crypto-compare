@@ -6,7 +6,7 @@ Deployed on Heroku >>> https://vue-crypto-test.herokuapp.com/
 
 
 
-[crypto](https://user-images.githubusercontent.com/43437042/56933397-e98f8f00-6ae7-11e9-96a2-221cc708348e.JPG)
+![alt crypto](https://user-images.githubusercontent.com/43437042/56933397-e98f8f00-6ae7-11e9-96a2-221cc708348e.JPG)
 
 
 ## Build Setup
