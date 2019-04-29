@@ -4,6 +4,11 @@ TOP 10 cryptocurrencies with Marketcap, Volume 24h...
 Simple IHM with Vue.js consuming API https://min-api.cryptocompare.com/
 Deployed on Heroku >>> https://vue-crypto-test.herokuapp.com/
 
+
+
+[crypto](https://user-images.githubusercontent.com/43437042/56933397-e98f8f00-6ae7-11e9-96a2-221cc708348e.JPG)
+
+
 ## Build Setup
 
 ``` bash
